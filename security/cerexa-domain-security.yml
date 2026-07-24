@@ -1,0 +1,43 @@
+generated: '2026-07-20'
+method: probed
+source: dig + curl probe of cerexa.com (2026-07-20)
+notes: >-
+  Cerexa is a defunct independent company. Its historical domain cerexa.com is
+  now registered and operated by AbbVie (MarkMonitor registrar, ns*.abbviedns.com
+  nameservers) and 301-redirects to https://www.abbvie.com/allergan.html. The
+  posture recorded below is therefore AbbVie's custodial posture over a legacy
+  domain, not a Cerexa-operated developer property.
+hosts:
+  - host: cerexa.com
+    https: false
+    https_error: connection refused on port 443
+    http: true
+    http_status: 301
+    redirects_to: https://www.abbvie.com/allergan.html
+    hsts: false
+    a_record: 204.74.99.105
+  - host: www.cerexa.com
+    https: false
+    https_error: connection refused on port 443
+    a_record: 204.74.99.105
+domains:
+  - domain: cerexa.com
+    registrar: MarkMonitor Inc.
+    created: '2005-03-23'
+    expires: '2027-03-23'
+    nameservers:
+      - ns1.abbviedns.com
+      - ns2.abbviedns.com
+      - ns3.abbviedns.com
+      - ns4.abbviedns.com
+    registrant_operator: AbbVie
+    dnssec: false
+    caa: []
+    spf: true
+    spf_record: v=spf1 include:_u.cerexa.com._spf.smart.ondmarc.com -all
+    dmarc: true
+    dmarc_policy: none
+    mx: true
+    mx_hosts:
+      - mx1.hc3464-92.iphmx.com
+      - mx2.hc3464-92.iphmx.com

@@ -1,7 +1,31 @@
 aid: cerexa
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/cerexa.png
 name: Cerexa
-description: Cerexa is a company surfaced as a portfolio company of canaan-partners and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cerexa was a privately held biopharmaceutical company founded in the mid-2000s (its cerexa.com
+  domain was registered in March 2005) to develop anti-infective therapies for serious, drug-resistant
+  bacterial infections in the hospital setting. Its lead program was ceftaroline fosamil, a
+  fifth-generation cephalosporin antibiotic active against methicillin-resistant Staphylococcus aureus
+  (MRSA), in-licensed from Takeda Pharmaceutical Company and carried forward by Forest Laboratories;
+  the compound was approved by the FDA on October 29, 2010 and marketed as Teflaro in the United States
+  and Zinforo in Europe. Cerexa was backed by venture investors including Canaan Partners, and its
+  programs ultimately passed through Forest Laboratories into the Actavis/Allergan combination (Forest
+  Laboratories was acquired by Actavis on July 1, 2014) and on to AbbVie. Cerexa no longer operates as
+  an independent company and has no developer surface: it publishes no API, no SDKs, no GitHub
+  organization and no documentation, and its historical cerexa.com domain is now registered and
+  operated by AbbVie, 301-redirecting to AbbVie's Allergan page. This profile is retained as a
+  historical company record in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/cerexa/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +33,36 @@ x-backed-by:
 - canaan-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-detail: >-
+  No independent operations and no API surface. Programs passed through Forest Laboratories into
+  Actavis/Allergan and are now held by AbbVie, which also controls the legacy cerexa.com domain.
+x-successor: abbvie
+x-legacy-domain: cerexa.com
+x-legacy-domain-redirects-to: https://www.abbvie.com/allergan.html
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Pharmaceuticals
+- Anti-Infectives
+- Antibiotics
+- Life Sciences
+- Healthcare
+- Acquired
 apis: []
+common:
+- type: DomainSecurity
+  url: security/cerexa-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
