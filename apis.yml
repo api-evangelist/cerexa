@@ -40,7 +40,7 @@ x-status-detail: >-
 x-successor: abbvie
 x-legacy-domain: cerexa.com
 x-legacy-domain-redirects-to: https://www.abbvie.com/allergan.html
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
