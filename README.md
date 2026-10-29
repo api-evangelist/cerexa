@@ -64,6 +64,38 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Cerexa is a company surfaced as a portfolio company of canaan-partners and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+> **Acquired or rebranded.** This company was acquired, merged or renamed. Its API, if it still exists, is offered under another name. This profile is kept as a historical record and is not maintained or rated.
 
-Backed by: canaan-partners
+Cerexa was a privately held biopharmaceutical company founded in the mid-2000s (its cerexa.com domain was registered in March 2005) to develop anti-infective therapies for serious, drug-resistant bacterial infections in the hospital setting. Its lead program was ceftaroline fosamil, a fifth-generation cephalosporin antibiotic active against methicillin-resistant Staphylococcus aureus (MRSA), in-licensed from Takeda Pharmaceutical Company and carried forward by Forest Laboratories; the compound was approved by the FDA on October 29, 2010 and marketed as Teflaro in the United States and Zinforo in Europe. Cerexa was backed by venture investors including Canaan Partners, and its programs ultimately passed through Forest Laboratories into the Actavis/Allergan combination (Forest Laboratories was acquired by Actavis on July 1, 2014) and on to AbbVie. Cerexa no longer operates as an independent company and has no developer surface: it publishes no API, no SDKs, no GitHub organization and no documentation, and its historical cerexa.com domain is now registered and operated by AbbVie, 301-redirecting to AbbVie's Allergan page. This profile is retained as a historical company record in the API Evangelist network.
+
+**Areas:** Company · Biotechnology · Pharmaceuticals · Anti-Infectives · Antibiotics · Life Sciences · Healthcare · Acquired
+
+## Cerexa on APIs.io (historical record)
+
+Everything profiled for Cerexa is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cerexa/](https://apis.io/providers/cerexa/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cerexa Domain Security](https://apis.io/security/cerexa/cerexa-domain-security/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as acquired or rebranded, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Cerexa: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cerexa/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
